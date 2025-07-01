@@ -1,63 +1,56 @@
+export const homeSections = [
+    {
+      title: '単語',
+      description: '語彙力を鍛える英単語練習セクション',
+      link: '/vocabulary',
+    },
+    {
+      title: '文法',
+      description: '英文法を体系的に学べるセクション',
+      link: '/grammar',
+    },
+    {
+      title: '発音',
+      description: '正しい英語の音を学ぶためのセクション',
+      link: '/pronunciation',
+    },
+  ];
+
 export const grammarSections = [
     {
+      title: '一般動詞の基本',
+      description: 'run, eat, play などの基本的な一般動詞の使い方を学びます',
+      link: '/grammar/basic-verbs',
+    },
+    {
+      title: 'Be動詞の基本',
+      description: 'am, is, are を使った文の作り方と肯定・否定・疑問文のパターンを理解します',
+      link: '/grammar/be-verbs',
+    },
+    {
       title: '時制',
-      description: '現在形・過去形・未来形・完了形など',
+      description: '現在形・過去形・未来形・現在完了など、動詞の時制の変化を学びます',
       link: '/grammar/tense',
     },
     {
-      title: '受動態',
-      description: '受け身の表現: be動詞 + 過去分詞',
-      link: '/grammar/passive',
-    },
-    {
-      title: '助動詞',
-      description: 'can, must, should など可能性・義務の表現',
-      link: '/grammar/modal',
-    },
-    {
-      title: '仮定法',
-      description: 'If を使った仮定の表現（仮定法過去・過去完了など）',
-      link: '/grammar/conditional',
-    },
-    {
-      title: '関係詞',
-      description: 'who, which, that などによる節の追加説明',
-      link: '/grammar/relative',
-    },
-    {
-      title: '分詞',
-      description: '現在分詞・過去分詞による修飾',
-      link: '/grammar/participle',
-    },
-    {
-      title: '比較',
-      description: '形容詞の比較級・最上級の使い方',
-      link: '/grammar/comparative',
-    },
-    {
-      title: '不定詞・動名詞',
-      description: 'to + 動詞、動詞 + ing の違いと使い分け',
-      link: '/grammar/infinitive-gerund',
-    },
-    {
       title: '前置詞',
-      description: 'at, in, on など場所・時間の前置詞',
+      description: 'at, in, on などの前置詞を使って場所・時間・方向などを表現します',
       link: '/grammar/preposition',
     },
     {
-      title: '接続詞',
-      description: 'and, but, because, although などの使い方',
-      link: '/grammar/conjunction',
+      title: '助動詞',
+      description: 'can, must, should などを使って可能性・義務・推量を表現します',
+      link: '/grammar/modal',
     },
     {
-      title: '冠詞',
-      description: 'a, an, the の使い分け',
-      link: '/grammar/article',
+      title: '副詞',
+      description: 'quickly, often, very など、副詞の役割と文中での位置を学びます',
+      link: '/grammar/adverb',
     },
     {
-      title: '疑問文・否定文',
-      description: 'do/does/did を使った疑問文と否定文の作り方',
-      link: '/grammar/question-negative',
+      title: '形容詞',
+      description: 'beautiful, big, interesting など、名詞を修飾する形容詞の使い方を学びます',
+      link: '/grammar/adjective',
     },
   ];
   
